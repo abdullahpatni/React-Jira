@@ -41,15 +41,6 @@ const App = () => {
 		// setData(current => data.columns["column-1"] = { ...current.columns["column-1"], taskIds: [...current.columns["column-1"].taskIds, task] })
 		setData(current => console.log(current))
 		const toPush =  { id: `task-${task}`, content: task }
-		setData(current => ({
-			...current,
-			[current.tasks[`task-${task}`] : 'h
-			
-			'] 
-		}))
-		// setData(current => )
-		// localStorage.setItem('myData', data)
-		// console.log(data)
 	};
 
 	const onDragEnd = (result) => {
